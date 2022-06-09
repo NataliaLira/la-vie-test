@@ -58,7 +58,7 @@ describe('No controller, ao executar função', () => {
             expect(response.body).toEqual(
                 expect.objectContaining({
                     nome: "alo",
-                    email: "nataliaAlo8@gmail.com",
+                    email: "nataliaAlo7@gmail.com",
                     apresentacao: "bla bla bla",
                 })
             )

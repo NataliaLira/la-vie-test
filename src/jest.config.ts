@@ -4,7 +4,7 @@ import type {
 
 const config: InitialOptionsTsJest = {
   modulePathIgnorePatterns: [
-    './dist'
+    '../dist'
   ], 
   globals: {
     'ts-jest': { }
